@@ -1,0 +1,203 @@
+<button (click)="start()" style="cursor: pointer">
+  <img src="../../assets/ojo.jpg" width="50px" height="50px" />
+</button>
+<button (click)="pause()" style="cursor: pointer">
+  <img src="../../assets/stop.jpg" width="50px" height="50px" />
+</button>
+<button (click)="resume()" style="cursor: pointer">
+  <img src="../../assets/play.png" width="50px" height="50px" />
+</button>
+<button (click)="cancel()" style="cursor: pointer">
+  <img src="../../assets/cancel.jpg" width="50px" height="50px" />
+</button>
+
+<div style="text-align: center;">
+<img src="../../assets/image3.jpg" class="img-fluid" alt="Responsive image" style="width: 600px;">
+</div>
+<hr>
+<h5
+class="position-relative d-inline-block text-primary text-uppercase"
+>
+Services
+</h5>
+
+<div class="d-flex flex-column">
+    <div class="p-2">
+        <h1 class="text-capitalize">{{text1}}</h1>
+    </div>
+    <div class="p-2">
+        <h5>{{text2}}</h5>
+    </div>
+    <div class="p-2">
+        <p>{{text3}}
+        </p>
+    </div>
+  </div>
+
+
+<br>
+<div class="card-columns">
+    <div class="card">
+        <img class="card-img-top" src="../../assets/cardimg1.jpg" alt="Card image cap">
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title">{{service1}}</h4>
+          <span class="badge badge-pill badge-info" >{{1500 | currency: 'MXN'}}</span>
+          <p class="card-text">
+           {{text6}} <i class="fa-solid fa-circle-check text-right" ></i>
+          </p>
+          <p class="card-text">
+            {{text7}}  <i class="fa-solid fa-circle-check"></i>
+           </p>
+           <p class="card-text">
+            {{text8}} <i class="fa-solid fa-circle-check"></i>
+           </p>
+          <a href="/contact" class="btn btn-primary">{{text9}}</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img class="card-img-top" src="../../assets/cardimg2.jpg" alt="Card image cap">
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title">{{service2}}</h4>
+          <span class="badge badge-pill badge-info" >{{1100 | currency: 'MXN'}}</span>
+          <p class="card-text">
+            {{text6}} <i class="fa-solid fa-circle-check text-right" ></i>
+           </p>
+           <p class="card-text">
+             {{text7}}  <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="card-text">
+             {{text8}} <i class="fa-solid fa-circle-check"></i>
+            </p>
+          <a href="/contact" class="btn btn-primary">{{text9}}</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="../../assets/cardimg3.jpg" alt="Card image cap">
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title">{{service3}}</h4>
+          <span class="badge badge-pill badge-info" >{{3900 | currency: 'MXN'}}</span>
+          <p class="card-text">
+            {{text6}} <i class="fa-solid fa-circle-check text-right" ></i>
+           </p>
+           <p class="card-text">
+             {{text7}}  <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="card-text">
+             {{text8}} <i class="fa-solid fa-circle-check"></i>
+            </p>
+          <a href="/contact" class="btn btn-primary">{{text9}}</a>
+        </div>
+      </div>
+      
+  <div class="card bg-primary p-3 text-center">
+    
+    <p class="text-white text-capitalize" style="font-size: 30px;">{{text4}}</p>
+  </div>
+
+  <div class="card">
+  <img class="card-img-top" src="../../assets/cardimg4.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center;">
+    <h4 class="card-title">{{service4}}</h4>
+    <span class="badge badge-pill badge-info" >{{27000 | currency: 'MXN'}}</span>
+    <p class="card-text">
+        {{text6}}<i class="fa-solid fa-circle-check text-right" ></i>
+       </p>
+       <p class="card-text">
+         {{text7}}  <i class="fa-solid fa-circle-check"></i>
+        </p>
+        <p class="card-text">
+         {{text8}} <i class="fa-solid fa-circle-check"></i>
+        </p>
+    <a href="/contact" class="btn btn-primary">{{text9}}</a>
+</div>
+</div>
+
+<div class="card">
+    <img class="card-img-top" src="../../assets/cardimg5.jpg" alt="Card image cap">
+    <div class="card-body" style="text-align: center;">
+      <h4 class="card-title">{{service5}}</h4>
+      <span class="badge  badge-pill badge-info" >{{18000 | currency: 'MXN'}}</span>
+      <p class="card-text">
+        {{text6}} <i class="fa-solid fa-circle-check text-right" ></i>
+       </p>
+       <p class="card-text">
+         {{text7}}  <i class="fa-solid fa-circle-check"></i>
+        </p>
+        <p class="card-text">
+         {{text8}} <i class="fa-solid fa-circle-check"></i>
+        </p>
+      <a href="/contact" class="btn btn-primary">{{text9}}</a>
+    </div>
+  </div>
+  
+
+  <div class="card">
+    <img class="card-img-top" src="../../assets/cardimg6.jpg" alt="Card image cap">
+    <div class="card-body" style="text-align: center;">
+      <h4 class="card-title">{{service6}}</h4>
+      <span class="badge badge-pill badge-info" >{{6500 | currency: 'MXN'}}</span>
+      <p class="card-text">
+        {{text6}} <i class="fa-solid fa-circle-check text-right" ></i>
+       </p>
+       <p class="card-text">
+         {{text7}}  <i class="fa-solid fa-circle-check"></i>
+        </p>
+        <p class="card-text">
+         {{text8}} <i class="fa-solid fa-circle-check"></i>
+        </p>
+      <a href="/contact" class="btn btn-primary">{{text9}}</a>
+    </div>
+  </div>
+  
+  </div>
+<br>
+
+    <footer class="page-footer font-small indigo bg-dark ">
+      
+      <div class="py-5" style="text-align: center">
+        <div class="">
+          
+          <a href="https://www.facebook.com" class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
+            </i>
+          </a>
+          
+          <a href="https://www.twitter.com" class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+        
+          <a href="https://www.google.com" class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
+            </i>
+          </a>
+      
+          <a href="https://www.whatsapp.com" class="li-ic">
+            <i
+              class="fa-brands fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x"
+            >
+            </i>
+          </a>
+          
+          <a href="https://www.instagram.com" class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+            </i>
+          </a>
+      
+          <a href="https://www.pinterest.com" class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+    
+      <div class="footer-copyright text-center text-white">
+        © 2020 Copyright:
+        <a href="/home"> DentaCareClinic.com</a>
+      </div>
+  
+    </footer>
+    
+
+
+
